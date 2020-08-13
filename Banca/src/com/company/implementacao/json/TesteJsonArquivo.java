@@ -19,9 +19,10 @@ public class TesteJsonArquivo {
 //        JSONArray json = BancaParser.toJson(lista);
 //        escreverArquivo("jornais.json", json);
 
-        ListaDeJornais lista = BancaParser.fromJson(lerArquivo("jornais.json"));
+        //ListaDeJornais lista = BancaParser.fromJson(lerArquivo("jornais.json"));
+        ListaDeJornais lista = BancaParser.fromJson(lerArquivo("arquivo_Json.txt"));
         System.out.println("Lista Carregada");
-        System.out.println("" + lista);
+        System.out.println(lista.getMeusJornais().get(0).toString());
 
     }
 
