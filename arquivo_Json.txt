@@ -1,0 +1,1 @@
+[{"preco":20,"nome":"Turma da monica","tipos":"gibis","quantidade":30},{"preco":30,"nome":"Jornal da tarde","tipos":"jornal","quantidade":23},{"preco":12,"nome":"Playboy","tipos":"revista","quantidade":0}]
